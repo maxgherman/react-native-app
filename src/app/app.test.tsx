@@ -8,5 +8,5 @@ describe('<App />', () => {
         // const instance = component.root;
 
         console.log(component.toJSON());
-    })
-})
+    });
+});
