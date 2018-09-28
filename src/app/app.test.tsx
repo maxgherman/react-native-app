@@ -1,12 +1,14 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import * as renderer from 'react-test-renderer';
 import App from './app';
 
 describe('<App />', () => {
-    it('should render roo element', () => {
+    it('should render root element', () => {
         const component = renderer.create(<App />);
-        // const instance = component.root;
+        const instance = component.root;
 
-        console.log(component.toJSON());
+        instance.findByType('View');
+
+        // console.log(component.toJSON());
     });
 });
