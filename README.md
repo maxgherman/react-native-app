@@ -1,2 +1,3 @@
-# react-native-app
-Basic skeleton for React web site
+# React nartive app skeleton steps
+
+1. Initial
